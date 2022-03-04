@@ -1,0 +1,67 @@
+.spto-header {
+    background-color: #35488d;
+    width: 100%;
+    padding: 15px 8px;
+    height: 60px;
+
+    .logo {
+      position: absolute;
+     img {
+        width: 100px;
+     }
+    }
+
+    .avatar {
+        position:absolute ;
+        right: 10px;
+    }
+}
+
+.spto-content-container {
+    width: 100%;
+    .spto-palette {
+      width: 20%;
+      position: absolute;
+      padding: 20px 0px;
+      height: 100vh;
+
+      .item {
+          cursor : pointer;
+        p {
+            padding: 10px 0px 10px 15px;
+        }
+
+        &.active {
+            background-color: #2c9ded29;
+            color: #1890ff;
+            border-right: 4px solid #1890ff;
+            font-weight: 600;
+        }
+      }
+
+
+    }
+
+    .spto-content {
+        width: 80%;
+        position: absolute;
+        right: 0px;
+        background-color: #a4a5a745;
+        padding: 20px 15px;
+        min-height: 100vh;
+    }
+}
+
+
+.spto--datatable-search {
+    background-color: #fff !important;
+    border: 1px solid #e3dcdc !important;
+    border-radius: 2px;
+    .ant-input-prefix {
+      left: 8px;
+    }
+  }
+
+.ant-table-row td {
+  text-transform: capitalize;
+}
