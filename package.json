@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.20.0",
     "mongodb": "^4.1.4",
     "mongoose": "^6.0.12",
-    "sass": "^1.43.4"
+    "sass": "^1.79.0"
   }
 }
